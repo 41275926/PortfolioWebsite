@@ -1,0 +1,192 @@
+
+
+  body {
+
+    background-color: #E1C8FF;
+  }
+
+.logo {
+  font-family: 'Quando', serif;
+  font-size: 5em;
+  line-height: 150px;
+  height: 150px;
+  background-color: #AB3CFF;
+  text-align: center;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #551E7F;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-family: 'Quando', serif;
+  font-size: 16px;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #fff;
+
+
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav a:hover {
+  background-color: #66447F;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+
+ .containermain{
+    margin: auto;
+    height: 800px;
+    width: 70%;
+   /* border: 3px solid green; */
+    padding: 10px;
+    background-color: #CC89FF;
+ }
+
+
+
+.containerfields{
+display:flex;
+flex-direction:column;
+
+}
+ .ddesign{
+
+height:200px;
+background-color: blue;
+ }
+ 
+ .games{
+
+height:200px;
+background-color: green;
+ }
+
+.ps{
+
+height:200px;
+background-color: yellow;
+}
+
+.webdesign{
+
+height:200px;
+background-color: red;
+}
+
+footer ul {
+  list-style: none;
+  background-color: #551E7F;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  font-family: 'Quando', serif;
+  font-size: 10px;
+  height: 20px;
+  line-height: 20px;
+  border-bottom: 1px solid #fff;
+
+}
+ 
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+
+}
+
+
+
+
+footer a:hover {
+  background-color: #66447F;
+}
+ 
+footer a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    display: inline-block;
+   
+  }
+.containerfields{
+
+display:flex;
+flex-direction:row;
+
+}
+
+.ddesign{
+width:25%;
+height:200px;
+background-color: blue;
+ }
+ 
+ .games{
+width:25%;
+height:200px;
+background-color: green;
+ }
+
+.ps{
+width:25%;
+height:200px;
+background-color: yellow;
+}
+
+.webdesign{
+width:25%;
+height:200px;
+background-color: red;
+}
+ 
+  footer li {
+    width: 120px;
+    border-bottom: none;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    display: inline-block;
+    border-right:2px solid #fff;
+ 
+  }
+
+  footer li:last-child{
+    border-right:none;
+}
