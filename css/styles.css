@@ -52,41 +52,24 @@
  .containermain{
     margin: auto;
     height: 800px;
-    width: 70%;
+    width: 80%;
    /* border: 3px solid green; */
     padding: 10px;
     background-color: #CC89FF;
+      display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
  }
 
+.group {
+
+    display: flex;
+   flex-direction: column;
+    justify-content: space-between;
+   }
 
 
-.containerfields{
-
-
-}
- .ddesign{
-
-height:200px;
-background-color: blue;
- }
- 
- .games{
-
-height:200px;
-background-color: green;
- }
-
-.ps{
-
-height:200px;
-background-color: yellow;
-}
-
-.webdesign{
-
-height:200px;
-background-color: red;
-}
 
 footer ul {
   list-style: none;
@@ -127,6 +110,30 @@ footer a.active {
 }
 
 
+.thumbnails {
+
+}
+
+
+.thumbnails img {
+  width: 200px;
+  height: 150px;
+margin-top:10px;
+margin-bottom:10px;
+  transition: all .2s ease-in-out;
+
+}
+
+.thumbnails:hover img {
+  opacity: .6;
+  transform: scale(.92);
+}
+
+.thumbnails:hover img:hover {
+  opacity: 1;
+  transform: scale(1) rotate(2deg);
+  box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
 
 
 
@@ -146,48 +153,25 @@ footer a.active {
   }
 
    .containermain{
+       display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
     margin: auto;
     height: 700px;
-    width: 50%;
+    width: 70%;
    /* border: 3px solid green; */
     padding: 10px;
     background-color: #CC89FF;
  }
+.group {
 
-.containerfields{
-
-display: flex;
-justify-content: space-around;
-align-items:center;
-
-
+   display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+  
 }
 
-.ddesign{
- 
-width:25%;
-height:200px;
-background-color: blue;
- }
- 
- .games{
-width:25%;
-height:200px;
-background-color: green;
- }
-
-.ps{
-width:25%;
-height:200px;
-background-color: yellow;
-}
-
-.webdesign{
-width:25%;
-height:200px;
-background-color: red;
-}
- 
   footer li {
     width: 120px;
     border-bottom: none;
@@ -201,4 +185,31 @@ background-color: red;
 
   footer li:last-child{
     border-right:none;
+}
+
+
+
+.thumbnails group {
+  margin-right: -15px;
+}
+
+
+.thumbnails img {
+  width: 300px;
+  height: 200px;
+margin:20px;
+  transition: all .2s ease-in-out;
+}
+
+.thumbnails:hover img {
+  opacity: .6;
+  transform: scale(.92);
+}
+
+.thumbnails:hover img:hover {
+  opacity: 1;
+  transform: scale(1) rotate(2deg);
+  box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+
 }
